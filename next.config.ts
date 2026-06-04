@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:5108/:path*',
+        destination: 'https://trail-backend-production-9ab0.up.railway.app/:path*',
       },
     ];
   },
